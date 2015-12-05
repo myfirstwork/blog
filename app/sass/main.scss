@@ -1,0 +1,42 @@
+@import 'header.scss';
+
+.main-form{
+	width: 260px;
+	height: 200px;
+	background-color: #c9c9c9;
+	margin:0 auto;
+	display: block;
+	position: relative;
+	margin-top: 100px;
+	text-align: center;
+	padding: 30px;
+	border: 2px solid gray;
+	input{
+		width: 200px;
+		height: 40px;
+		padding-left: 20px;
+		margin-bottom: 10px;
+		color: gray;
+		font-size: 16px;
+		border: 2px solid gray;
+		&:focus{
+			border: 2px solid orange;
+		}
+	}
+	.main-form-button{
+		width: 220px;
+		height: 40px;
+		border: 2px solid blue;
+		border-radius: 5px;
+		color: blue;
+		background-color: #fff;
+		font-size: 22px;
+		cursor: pointer;
+		transition: 0.7s;
+		&:hover{
+			background-color: blue;
+			color: #fff;
+			transition: 0.7s;
+		}
+	}
+}
